@@ -1,6 +1,6 @@
 # Bases
 
-This project was created for learning angular basics
+This project was created for learning angular basics.
 
 ## Development server
 
