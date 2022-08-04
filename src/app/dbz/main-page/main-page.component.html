@@ -1,0 +1,24 @@
+<h1>Dragon Ball Z</h1>
+<hr>
+
+<div class="row">
+    <div class="col">
+        <app-characters></app-characters>
+        <!-- <h3>Personajes</h3>
+        <hr>
+        <ul>
+            <li *ngFor="let item of listCharacter">{{item.name}}-{{item.power | number}}</li>
+        </ul> -->
+    </div>
+    <div class="col">
+        <app-create-character [newCaracter]="newCaracter">
+        </app-create-character>
+        <!-- <h3>Agregar</h3>
+        <hr>
+        <form (ngSubmit)="Add()">
+            <input type="text" name="name" id="" placeholder="Nombre" [(ngModel)]="newCaracter.name">
+            <input type="number" name="power" id="" placeholder=" Poder" [(ngModel)]="newCaracter.power">
+            <button type="submit">Agregar</button>
+        </form> -->
+    </div>
+</div>
