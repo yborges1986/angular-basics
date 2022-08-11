@@ -1,0 +1,25 @@
+.sidebar-block {
+    background: rgb(12, 12, 12);
+    border-right: 1px;
+    padding: 3px;
+    justify-content: center;
+}
+
+.sidebar-block--title {
+    color: white;
+}
+
+.sidebar-block--DashBoard {
+    padding: 0.2rem;
+}
+
+.sidebar-block--DashBoard a {
+    list-style: none;
+    text-decoration: none;
+    border: 1px;
+    background-color: white;
+    padding: 0.2rem;
+    border-radius: 2px;
+    color: rgb(12, 12, 12);
+
+}
